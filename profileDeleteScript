@@ -1,0 +1,15 @@
+Open Powershell and right click to run as administrator
+$dateCutoff = (Get-Date).AddDays(-30)
+
+# Get the list of user profiles, excluding the system profiles
+#Uses WMI to access user profiles finds profiles before the cut off date which is today -30 days and then creates a loop to delete them, the .Delete() also deletes the orphan child from the  HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+Get-WmiObject -Class Win32_UserProfile | Where-Object {
+    -not $_.Special -and $_.LastUseTime -and ([DateTime]::ParseExact($_.LastUseTime.Substring(0,14), 'yyyyMMddHHmmss', $null) -lt $dateCutoff)
+} | ForEach-Object {
+    try {
+        $_.Delete()
+        Write-Output "Deleted profile: $($_.LocalPath)"
+    } catch {
+        Write-Error "Failed to delete profile: $($_.LocalPath). Error: $_"
+    }
+}
