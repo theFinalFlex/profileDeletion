@@ -1,4 +1,3 @@
-Open Powershell and right click to run as administrator
 $dateCutoff = (Get-Date).AddDays(-30)
 
 # Get the list of user profiles, excluding the system profiles
