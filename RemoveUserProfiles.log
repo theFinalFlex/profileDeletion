@@ -1,0 +1,537 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240809074329
+Username: CHICAGOPOLICE\adm-avenkatraman
+RunAs User: CHICAGOPOLICE\adm-avenkatraman
+Configuration Name: 
+Machine: 057D234490 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 20664
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\ProfileCleanup\RemoveUserProfiles.log
+scheduled task is not present, will create
+
+TaskPath                                       TaskName                          State
+--------                                       --------                          -----
+\                                              ANY USER - Write Last Logon Date  Ready
+The WriteLastLogonDate.vbs, WriteLastLogonDate.ps1, and the Scheduled Tasks all exist.
+---------------------------------------------------
+LIST OF USERS ACCOUNTS ON COMPUTER (BEFORE CLEANUP)
+---------------------------------------------------
+pc0cz52
+saul.villasenor
+pc0ct02
+pc0ct29
+Pc0ct05
+pc0ct22
+pc0cs73
+pc0cr88
+pc0cq26
+adm-jadvento
+motorola-bernhardt
+adm-josen
+PC0CK66
+pc0ck11
+pc0cj79
+pc0ci86
+pc0ci55
+pc0cj25
+pc0ci73
+pc0ch59
+pc0cg51
+pc0cg45
+pc0cf45
+pc0cf29
+pc0cf90
+pc0ce28
+pc0cd20
+pc0cb71
+pc0cb49
+pc0ca45
+pc0bx19
+pc0f788
+pc0bu22
+pc0bs61
+pc0br96
+pc0br48
+pc0bw51
+pc0bo52
+pc0bo47
+pc0bo15
+pc0bn76
+pc0bm47
+pc0bl47
+pc0bk30
+pc0bj24
+pc0bi64
+pc0bg87
+pc0bf98
+pc0bf53
+pc0bd51
+pc0be37
+pc0bc93
+pc0bc34
+pc0bb69
+pc0bb71
+useofforce
+pc0az67
+pc0az55
+pc0az31
+PC0E359
+pc0ay18
+pc0ax21
+pc0av69
+pc0av54
+pc0av17
+pc0at68
+pc0at09
+pc0at41
+pc0d688
+pc0ao52
+pc0am92
+pc0am11
+pc0aj33
+pc0ai92
+pc0aj04
+pc0ai07
+pc0ah96
+pc0ag56
+pc0af96
+pc0ad51
+pc0ad53
+PC0AE23
+pc0ae46
+pc0ad67
+pc0ac95
+pc0q967
+pc0z828
+pc0w105
+pc0ac53
+pc0s059
+pc0ab56
+pc0z903
+pc0z891
+pc0z884
+pc0aa10
+pc0i250
+pc0z768
+pc0z766
+pc0z663
+pc0z655
+pc0z191
+PC0Y568
+pc0y970
+pc0x933
+pc0x014
+pc0y354
+pc0x860
+pc0x859
+pc0y897
+pc0y606
+pc0x809
+PC0Z275
+PC0Z274
+pc0y196
+pc0x760
+PC0Y646
+PC0Y533
+pc0y376
+pc0x820
+pc0x107
+PC0X095
+pc0w878
+pc0w806
+pc0w748
+pc0w697
+pc0w502
+pc0w413
+pc0w386
+PC0W365
+pc0w324
+pc0w206
+pc0v887
+pc0v794
+PC0V666
+pc0v522
+pc0v317
+pc0v304
+TEMP.CHICAGOPOLICE.004
+pc0v249
+pc0v240
+pc0v094
+pc0u842
+pc0u791
+pc0u543
+pc0u482
+pc0u472
+pc0t694
+pc0t605
+pc0t533
+pc0t530
+pc0t426
+pc0t343
+pc0t150
+pc0t095
+pc0s603
+pc0s451
+pc0s413
+pc0s047
+pc0r483
+adm-avenkatraman
+adm-jlascola
+PSIT
+NULL Profile Path Detected: The SID S-1-5-21-1515066427-1084041700-1565309358-87414 doesn't have a profile path defined.  It may be corrupt.  Check C:\Users for usernames not displaying on the list above to identify.
+NULL Profile Path Detected: The SID S-1-5-21-1515066427-1084041700-1565309358-82987 doesn't have a profile path defined.  It may be corrupt.  Check C:\Users for usernames not displaying on the list above to identify.
+NULL Profile Path Detected: The SID S-1-5-21-1515066427-1084041700-1565309358-39644 doesn't have a profile path defined.  It may be corrupt.  Check C:\Users for usernames not displaying on the list above to identify.
+---------------------------------------------------------------------------------------------------------
+USER PROFILE CHECKING AND REMOVAL ---  Will remove profiles older than 0 days.
+---------------------------------------------------------------------------------------------------------
+USER REMOVED pc0cz52 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0cz52 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0cz52 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED saul.villasenor :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED saul.villasenor :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED saul.villasenor :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0cs73 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0cs73 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0cs73 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0cr88 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0cr88 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0cr88 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0cq26 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0cq26 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0cq26 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PC0CK66 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PC0CK66 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PC0CK66 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0ci55 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0ci55 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0ci55 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0cd20 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0cd20 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0cd20 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0bs61 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0bs61 :  Win32_UserProfile removal proccess STARTED.
+Remove-CimInstance : The process cannot access the file because it is being used by another process. 
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], 
+CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+Remove-CimInstance : The process cannot access the file because it is being used by another process.
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+
+USER REMOVED pc0bs61 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0bo15 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0bo15 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0bo15 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0bf98 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0bf98 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0bf98 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0bc93 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0bc93 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0bc93 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0bc34 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0bc34 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0bc34 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0bb69 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0bb69 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0bb69 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED useofforce :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED useofforce :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED useofforce :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0az67 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0az67 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0az67 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0at68 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0at68 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0at68 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0d688 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0d688 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0d688 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0ao52 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0ao52 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0ao52 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0ai92 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0ai92 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0ai92 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0af96 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0af96 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0af96 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0ae46 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0ae46 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0ae46 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0z828 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0z828 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0z828 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0w105 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0w105 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0w105 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0ac53 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0ac53 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0ac53 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0s059 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0s059 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0s059 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0aa10 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0aa10 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0aa10 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0i250 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0i250 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0i250 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0z766 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0z766 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0z766 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0z655 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0z655 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0z655 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PC0Y568 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PC0Y568 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PC0Y568 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0x933 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0x933 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0x933 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0x860 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0x860 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0x860 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0x859 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0x859 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0x859 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0y606 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0y606 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0y606 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0y196 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0y196 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0y196 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PC0Y646 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PC0Y646 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PC0Y646 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0y376 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0y376 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0y376 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0x107 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0x107 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0x107 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PC0X095 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PC0X095 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PC0X095 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0w878 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0w878 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0w878 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0w748 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0w748 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0w748 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0w502 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0w502 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0w502 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0w413 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0w413 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0w413 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0w386 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0w386 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0w386 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PC0W365 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PC0W365 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PC0W365 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PC0V666 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PC0V666 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PC0V666 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0v522 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0v522 :  Win32_UserProfile removal proccess STARTED.
+Remove-CimInstance : The process cannot access the file because it is being used by another process. 
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], 
+CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+Remove-CimInstance : The process cannot access the file because it is being used by another process.
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+
+USER REMOVED pc0v522 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0v317 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0v317 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0v317 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED TEMP.CHICAGOPOLICE.004 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED TEMP.CHICAGOPOLICE.004 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED TEMP.CHICAGOPOLICE.004 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0v094 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0v094 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0v094 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0u842 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0u842 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0u842 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0u472 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0u472 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0u472 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0t694 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0t694 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0t694 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0t530 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0t530 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0t530 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0t426 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0t426 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0t426 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0s451 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0s451 :  Win32_UserProfile removal proccess STARTED.
+Remove-CimInstance : The process cannot access the file because it is being used by another process. 
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], 
+CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+Remove-CimInstance : The process cannot access the file because it is being used by another process.
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+
+USER REMOVED pc0s451 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED pc0s413 :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED pc0s413 :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED pc0s413 :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED adm-avenkatraman :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED adm-avenkatraman :  Win32_UserProfile removal proccess STARTED.
+Remove-CimInstance : The process cannot access the file because it is being used by another process. 
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], 
+CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+Remove-CimInstance : The process cannot access the file because it is being used by another process.
+At D:\ProfileCleanup\RemoveUserProfiles.ps1:119 char:89
++ ... rProfile | Where-Object { $_.SID -eq $user.sid } | Remove-CimInstance
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Win32_UserProfi...00-15653093...):CimInstance) [Remove-CimInstance], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80070020,Microsoft.Management.Infrastructure.CimCmdlets.RemoveCimInstanceCommand
+
+USER REMOVED adm-avenkatraman :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED adm-jlascola :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED adm-jlascola :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED adm-jlascola :  Win32_UserProfile removal proccess FINISHED.
+USER REMOVED PSIT :  Last used on 08/09/2024 00:00:00 --- Profile is older than 0 days, will be removed.
+USER REMOVED PSIT :  Win32_UserProfile removal proccess STARTED.
+USER REMOVED PSIT :  Win32_UserProfile removal proccess FINISHED.
+---------------------------------------------------
+LIST OF USERS ACCOUNTS ON COMPUTER (AFTER CLEANUP)
+---------------------------------------------------
+pc0ct02
+pc0ct29
+Pc0ct05
+pc0ct22
+adm-jadvento
+motorola-bernhardt
+adm-josen
+pc0ck11
+pc0cj79
+pc0ci86
+pc0cj25
+pc0ci73
+pc0ch59
+pc0cg51
+pc0cg45
+pc0cf45
+pc0cf29
+pc0cf90
+pc0ce28
+pc0cb49
+pc0ca45
+pc0bx19
+pc0f788
+pc0bu22
+pc0bs61
+pc0br96
+pc0br48
+pc0bw51
+pc0bo52
+pc0bo47
+pc0bn76
+pc0bm47
+pc0bl47
+pc0bk30
+pc0bj24
+pc0bi64
+pc0bg87
+pc0bf53
+pc0bd51
+pc0be37
+pc0bb71
+pc0az55
+pc0az31
+PC0E359
+pc0ay18
+pc0ax21
+pc0av69
+pc0av54
+pc0av17
+pc0at09
+pc0at41
+pc0am92
+pc0am11
+pc0aj33
+pc0aj04
+pc0ah96
+pc0ag56
+pc0ad51
+pc0ad53
+PC0AE23
+pc0ad67
+pc0ac95
+pc0q967
+pc0ab56
+pc0z903
+pc0z891
+pc0z884
+pc0z768
+pc0z663
+pc0z191
+pc0y970
+pc0x014
+pc0y897
+PC0Z274
+pc0x760
+PC0Y533
+pc0x820
+pc0w806
+pc0v794
+pc0v522
+pc0v249
+pc0v240
+pc0u791
+pc0u543
+pc0u482
+pc0t605
+pc0t533
+pc0t343
+pc0t150
+pc0t095
+pc0s603
+pc0s451
+pc0s047
+pc0r483
+adm-avenkatraman
+**********************
+Windows PowerShell transcript end
+End time: 20240809082101
+**********************

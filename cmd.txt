@@ -1,0 +1,2 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\RemoveUserProfiles.ps1 -DeleteProfileOlderInDays 0 -WorkingFolder "D:\ProfileCleanup"
